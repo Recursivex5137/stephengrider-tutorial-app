@@ -26,3 +26,31 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+.search-bar {
+  margin: 20px;
+  text-align: center;
+}
+
+.search-bar input {
+  width: 75%;
+}
+
+.video-item img {
+  max-width: 64px;
+}
+
+.video-detail .details {
+  margin-top: 20px;
+  padding: 10px;
+  border: solid 2px rgb(236, 236, 236);
+  border-radius: 4px;
+}
+
+.list-group-item {
+  cursor: pointer;
+}
+
+.list-group-item:hover {
+  background-color: rgb(238, 238, 238);
+}
